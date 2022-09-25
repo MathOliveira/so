@@ -20,11 +20,11 @@ Desenhe a solução construindo um grafo de execução de processos para obter p
 
 ## Implementar as seguintes operações
 
-- Criar uma ou mais estruturas de dados para armazenar os dados lidos.
-- Gravar um novo arquivo texto chamado autor.txt com o nome dos autores (sem repetição) e a quantidade de livros - publicados para cada um. Um livro publicado deve levar em consideração somente uma edição publicada.
-- Gravar um novo arquivo chamado livro.txt com o título do livro (sem repetição) e os anos em que foram publicados (mostrar somente uma vez o mesmo ano).
-- Gravar um novo arquivo chamado edicao.txt com o ano e o número de edições publicadas naquele ano.
-- Apresentar um resumo na tela contendo a quantidade total de livros publicados (item 1), a quantidade total de anos que houveram publicações (item 2) e, o ano em que houve mais livros publicados (item 3).
+- [OK] Criar uma ou mais estruturas de dados para armazenar os dados lidos.
+- [OK] Gravar um novo arquivo texto chamado autor.txt com o nome dos autores (sem repetição) e a quantidade de livros - publicados para cada um. Um livro publicado deve levar em consideração somente uma edição publicada.
+- [] Gravar um novo arquivo chamado livro.txt com o título do livro (sem repetição) e os anos em que foram publicados (mostrar somente uma vez o mesmo ano).
+- [] Gravar um novo arquivo chamado edicao.txt com o ano e o número de edições publicadas naquele ano.
+- [] Apresentar um resumo na tela contendo a quantidade total de livros publicados (item 1), a quantidade total de anos que houveram publicações (item 2) e, o ano em que houve mais livros publicados (item 3).
 
 ## Entregar
 
