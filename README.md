@@ -35,10 +35,18 @@ Desenhe a solução construindo um grafo de execução de processos para obter p
 
 ---
 
-# Implementação
+# Minha Implementação
 
-## Execução do trabalho
+Trabalho implementado em Python, por isso o único requisito necessário para execução do trabalho é o Python 3.
 
-```
+Instrução para execução do trabalho:
+
+```sh
 python3 main.py data/books.txt 5
 ```
+
+Onde:
+
+- [main.py] - Arquivo main da minha implementação
+- [data/books.txt] - Arquivo de entrada com os dados estruturados do trabalho
+- [5] - Número de threads para execução do trabalho
