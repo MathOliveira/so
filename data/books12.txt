@@ -1,0 +1,12 @@
+4998955;A laboratory course in WordPerfect 51        ;Ernest S Colantonio           ;4;1991
+4998956;Observations upon the coinage struck for the ;Bucknill John A S Sir         ;2;1925
+4998957;Say what you see                             ;John W Byrom                  ;2;2001
+4998958;metallurgy of lead and the desilverization of;Heinrich Oscar Hofman         ;6;1901
+4998959;life and work of Alban Berg                  ;Willi Reich                   ;2;1965
+4998960;Reaching the silent billion                  ;Mason David E                 ;2;1967
+4998961;Il trovatore Uc Brunenc                      ;Paolo Gresti                  ;2;2001
+4998962;Paul Klee 18791940                           ;Paul Klee                     ;2;1967
+4998963;Psychological explanation                    ;Jerry A Fodor                 ;2;1968
+4998964;Outline of servomechanisms including problems;Sidney A Davis                ;2;1966
+4998965;Andy looks for gold                          ;Freda Mary Hurt               ;2;1965
+4998966;Man on the make                              ;Roberta Leigh                 ;4;198
