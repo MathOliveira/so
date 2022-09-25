@@ -33,6 +33,8 @@ Desenhe a solução construindo um grafo de execução de processos para obter p
 - instruções para a execução do código fonte
 - grafo de execução dos processos
 
+---
+
 # Implementação
 
 ## Execução do trabalho
