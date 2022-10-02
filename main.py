@@ -138,9 +138,9 @@ def main():
         for t in threads:
             t.join()
         #Write author list into txt file
-        if os.path.exists("authors.txt"):
-            os.remove("authors.txt")
-        with open(r'authors.txt', 'w') as fp:
+        if os.path.exists("autor.txt"):
+            os.remove("autor.txt")
+        with open(r'autor.txt', 'w') as fp:
             for a in authors:
                 fp.write(a.name.ljust(45) + ";%d\n" % len(a.titles))
         #Write books list into txt file
@@ -149,17 +149,20 @@ def main():
         with open(r'livro.txt', 'w') as fp:
             for b in books:
                 fp.write(b.name.ljust(45) + ";" + ','.join(b.publications) + ";\n")
+        #Write years list into txt file
+        if os.path.exists("edicao.txt"):
+            os.remove("edicao.txt")
+        with open(r'edicao.txt', 'w') as fp:
+            for y in years:
+                fp.write(y.year.ljust(4) + ";%d\n" % y.quantity)
         #Final resume
         print ('----------------------------------------------------------------')
         print ('FINAL RESUME\n')
         print ('Books:'.ljust(45) + '%d' % len(books))
         print ('Year with more books published:'.ljust(45) + bestYear[0].year)
         print ('Total of years that there were publications:'.ljust(45) + '%d' % len(years))
+        print ('Files generated:'.ljust(45) + 'autor.txt, livro.txt, edicao.txt')
         print ('----------------------------------------------------------------')
-        #TODO: remover trecho
-        for a in years:
-            a.print()
-        
-                
+                        
 if __name__ == '__main__':
     main()
