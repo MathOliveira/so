@@ -128,3 +128,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 data/books.txt
+livro.txt
+edicao.txt
+autor.txt
+authors.txt
