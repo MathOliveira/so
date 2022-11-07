@@ -97,8 +97,7 @@ def readLinesFromFile(books, authors, years, bestYear, filename: str, offset: in
             years[years.index(yearPublication)] = years[years.index(yearPublication)].incrementQuantity()
             # verify if its the best year (biggest number of publications)
             if years[years.index(yearPublication)].quantity > bestYear[0].quantity:
-                bestYear.pop()
-                bestYear.append(years[years.index(yearPublication)])
+                bestYear[0] = years[years.index(yearPublication)]
         else:
             # if not exists add year to list
             years.append(Year(yearPublication))            
